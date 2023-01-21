@@ -55,20 +55,10 @@ function App() {
   }, [todos])
   return (
     <>
-    <Router>
       <Navbar searchbar={false} wname="ToDo's List"/>
-      <Routes>
-          <Route exact path="/" element={<>
-              <AddTodo addTodo={addTodo}/>
-              <Todos todos={todos} onDelete={onDelete}/>
-            </>}>
-          </Route>
-          <Route exact path="/about" element={<About />}>
-          </Route>
-        </Routes>
-      <br/><br/>
-      <Footer/>
-    </Router> 
+      <AddTodo addTodo={addTodo}/>
+      <Todos todos={todos} onDelete={onDelete}/>
+
     </>
   );
 }
