@@ -58,7 +58,8 @@ function App() {
       <Navbar searchbar={false} wname="ToDo's List"/>
       <AddTodo addTodo={addTodo}/>
       <Todos todos={todos} onDelete={onDelete}/>
-
+      <br/><br/>
+      <Footer/>
     </>
   );
 }

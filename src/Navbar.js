@@ -24,9 +24,6 @@ export default function Navbar(props) {
         <li className="nav-item">
           <a className="nav-link active border border-1 mx-2" aria-current="page" href="#">Home</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link border border-1" href="/about">About</a>
-        </li>
       </ul>
 
       <form action="mailto:dpvp1403@gmail.com">
